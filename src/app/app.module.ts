@@ -7,7 +7,6 @@ import { ContactListComponent } from './components/contact-list/contact-list.com
 import { ReactiveFormsModule } from '@angular/forms';
 import { ModalComponent } from './shared/modal/modal.component';
 import { CreateContactComponent } from './components/create-contact/create-contact.component';
-import { NgxPaginationModule } from 'ngx-pagination';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 
 @NgModule({
@@ -21,7 +20,6 @@ import { provideHttpClient, withFetch } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    NgxPaginationModule
   ],
   providers: [
     provideClientHydration(),
